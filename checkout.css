@@ -1,0 +1,94 @@
+/* styles common to checkout and cart */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #232f3e;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search-input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.checkout-left, .checkout-right {
+    width: 48%;
+}
+
+.checkout-section {
+    margin-bottom: 20px;
+}
+
+.checkout-section h2 {
+    margin-bottom: 10px;
+}
+
+.checkout-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-section form label {
+    margin-top: 10px;
+}
+
+.checkout-section form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+.checkout-section form button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f0c14b;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout-right {
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+#order-summary {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#confirm-order {
+    padding: 10px;
+    background-color: #f0c14b;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-checkout {
+    background: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
